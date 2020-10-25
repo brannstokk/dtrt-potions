@@ -16,19 +16,22 @@ if InCombatLockdown() then return end
 -- local pvpPot = 18839 -- Combat Healing Potion
 local name, type = GetInstanceInfo()
 local macro = "#showtooltip\n/use "
-local macroName = "Heal"
+local healingMacroName = "Heal"
 local healingItemName = "";
 
 local healthstone = 19012 -- Major Healthstone
 
 local normalPots = {
    13446, -- Major Healing Potion (https://classic.wowhead.com/item=13446)
+   18839, -- Combat Healing Potion (https://classic.wowhead.com/item=18839)
    3928,  -- Superior Healing Potion (https://classic.wowhead.com/item=3928)
 }
 
 local pvpPots = {
    17348, -- Major Healing Draught (https://classic.wowhead.com/item=17348)
    18839, -- Combat Healing Potion (https://classic.wowhead.com/item=18839)
+   13446, -- Major Healing Potion (https://classic.wowhead.com/item=13446)
+   3928,  -- Superior Healing Potion (https://classic.wowhead.com/item=3928)
 }
 
 -- print("Checking for "..healthstone)
@@ -39,6 +42,7 @@ elseif type == "pvp" then
    for idx, item in ipairs(pvpPots) do
       print("Checking for "..item)
       if GetItemCount(item) ~= 0 then
+         print("Item count of "..item.." is"..GetItemCount(item))
          healingItemName = select(1, GetItemInfo(item)) -- use pvp pot
          break
       end
