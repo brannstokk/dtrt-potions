@@ -25,13 +25,13 @@ local manaItemName= "";
 
 local healthstone = 19012 -- Major Healthstone
 
-local normalPots = {
+local normalHealthItems = {
    13446, -- Major Healing Potion (https://classic.wowhead.com/item=13446)
    18839, -- Combat Healing Potion (https://classic.wowhead.com/item=18839)
    3928,  -- Superior Healing Potion (https://classic.wowhead.com/item=3928)
 }
 
-local pvpPots = {
+local pvpHealthItems = {
    17348, -- Major Healing Draught (https://classic.wowhead.com/item=17348)
    18839, -- Combat Healing Potion (https://classic.wowhead.com/item=18839)
    13446, -- Major Healing Potion (https://classic.wowhead.com/item=13446)
@@ -56,7 +56,7 @@ local pvpManaItems = {
 if GetItemCount(healthstone) ~= 0 then
    healingItemName = select(1, GetItemInfo(healthstone)) -- use healthstone
 elseif type == "pvp" then
-   for idx, item in ipairs(pvpPots) do
+   for idx, item in ipairs(pvpHealthItems) do
       print("Checking for "..item)
       if GetItemCount(item) ~= 0 then
          print("Item count of "..item.." is"..GetItemCount(item))
@@ -65,7 +65,7 @@ elseif type == "pvp" then
       end
    end
 else
-   for idx, item in ipairs(normalPots) do
+   for idx, item in ipairs(normalHealthItems) do
       if GetItemCount(item) ~= 0 then
          healingItemName = select(1, GetItemInfo(item)) -- use normal pot
          break
