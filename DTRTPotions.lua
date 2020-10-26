@@ -56,30 +56,12 @@ else
    end
 end
 
--- for i = 0, 4 do
---    for z = 1, GetContainerNumSlots(i) do
---       local item = GetContainerItemID(i, z)
---       if item == healthstone then
---          local _, duration = GetContainerItemCooldown(i, z)
---          if duration == 0 then
---             healingItemName = select(1,GetItemInfo(healthstone)) -- Healthstone available
---             break
---          end
---       elseif item == pvpPot and type == "pvp" then
---          local _, duration = GetContainerItemCooldown(i, z)
---          if duration == 0 then
---             healingItemName = select(1,GetItemInfo(pvpPot)) -- PVP healing potion available
---             break
---          end
---       elseif item == normalPot then
---          local _, duration = GetContainerItemCooldown(i, z)
---          if duration == 0 then
---             healingItemName = select(1,GetItemInfo(normalPot)) -- Normal healing potion available
---             break
---          end
---       end
---    end
--- end
+if manaItemName ~= "" then
+   EditMacro(manaMacroName,manaMacroName,nil,macro..manaItemName)
+   print("Macro "..manaMacroName.." is now using "..manaItemName)
+else
+   print("Macro "..manaMacroName.." was not modified: No healing items were found")
+end
 
 if healingItemName ~= "" then
    EditMacro(healingMacroName,healingMacroName,nil,macro..healingItemName)
