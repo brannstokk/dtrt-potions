@@ -18,6 +18,10 @@ local name, type = GetInstanceInfo()
 local macro = "#showtooltip\n/use "
 local healingMacroName = "Heal"
 local healingItemName = "";
+local manaMacroName = "Mana"
+local manaItemName= "";
+
+-- Healing item lists
 
 local healthstone = 19012 -- Major Healthstone
 
@@ -34,7 +38,20 @@ local pvpPots = {
    3928,  -- Superior Healing Potion (https://classic.wowhead.com/item=3928)
 }
 
--- print("Checking for "..healthstone)
+-- Mana item lists
+
+local normalManaItems = {
+   13444, -- Major Mana Potion (https://classic.wowhead.com/item=13444)
+   18841, -- Combat Mana Potion (https://classic.wowhead.com/item=18841)
+   13443, -- Superior Mana Potion (https://classic.wowhead.com/item=13443)
+}
+
+local pvpManaItems = {
+   18841, -- Combat Mana Potion (https://classic.wowhead.com/item=18841)
+   17351, -- Major Mana Draught (https://classic.wowhead.com/item=17351)
+   13444, -- Major Mana Potion (https://classic.wowhead.com/item=13444)
+   13443, -- Superior Mana Potion (https://classic.wowhead.com/item=13443)
+}
 
 if GetItemCount(healthstone) ~= 0 then
    healingItemName = select(1, GetItemInfo(healthstone)) -- use healthstone
@@ -56,11 +73,22 @@ else
    end
 end
 
-if manaItemName ~= "" then
-   EditMacro(manaMacroName,manaMacroName,nil,macro..manaItemName)
-   print("Macro "..manaMacroName.." is now using "..manaItemName)
+if type == "pvp" then
+   for idx, item in ipairs(pvpManaItems) do
+      print("Checking for "..item)
+      if GetItemCount(item) ~= 0 then
+         print("Item count of "..item.." is"..GetItemCount(item))
+         manaItemName = select(1, GetItemInfo(item)) -- use pvp pot
+         break
+      end
+   end
 else
-   print("Macro "..manaMacroName.." was not modified: No healing items were found")
+   for idx, item in ipairs(normalManaItems) do
+      if GetItemCount(item) ~= 0 then
+         manaItemName = select(1, GetItemInfo(item)) -- use normal pot
+         break
+      end
+   end
 end
 
 if healingItemName ~= "" then
@@ -68,6 +96,13 @@ if healingItemName ~= "" then
    print("Macro "..healingMacroName.." is now using "..healingItemName)
 else
    print("Macro "..healingMacroName.." was not modified: No healing items were found")
+end
+
+if manaItemName ~= "" then
+   EditMacro(manaMacroName,manaMacroName,nil,macro..manaItemName)
+   print("Macro "..manaMacroName.." is now using "..manaItemName)
+else
+   print("Macro "..manaMacroName.." was not modified: No healing items were found")
 end
 
 end)
