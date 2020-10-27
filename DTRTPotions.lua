@@ -57,9 +57,9 @@ if GetItemCount(healthstone) ~= 0 then
    healingItemName = select(1, GetItemInfo(healthstone)) -- use healthstone
 elseif type == "pvp" then
    for idx, item in ipairs(pvpHealthItems) do
-      print("Checking for "..item)
+      -- print("Checking for "..item)
       if GetItemCount(item) ~= 0 then
-         print("Item count of "..item.." is"..GetItemCount(item))
+         -- print("Item count of "..item.." is"..GetItemCount(item))
          healingItemName = select(1, GetItemInfo(item)) -- use pvp pot
          break
       end
@@ -75,9 +75,9 @@ end
 
 if type == "pvp" then
    for idx, item in ipairs(pvpManaItems) do
-      print("Checking for "..item)
+      -- print("Checking for "..item)
       if GetItemCount(item) ~= 0 then
-         print("Item count of "..item.." is"..GetItemCount(item))
+         -- print("Item count of "..item.." is"..GetItemCount(item))
          manaItemName = select(1, GetItemInfo(item)) -- use pvp pot
          break
       end
