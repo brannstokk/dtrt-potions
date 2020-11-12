@@ -1,7 +1,6 @@
 ## Interface: 11302
 ## Author: jlucas
 ## Title: DTRTPotions
-## Notes: Do the right thing with potions
+## Notes: Do the right thing with potions (and bandages)
 
-## DTRTPotions.xml
 DTRTPotions.lua
