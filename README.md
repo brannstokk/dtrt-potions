@@ -2,7 +2,7 @@
 
 ## Summary
 
-Do the right thing with potions (and bandages).
+Do the right thing with potions (and bandages) for World of Warcraft Classic.
 
 ## Description
 
@@ -59,6 +59,10 @@ N/A | N/A | Heavy Runecloth Bandage | N/A
   the battlegrounds
 * Health Stone is listed in the addon and should be used first in the
   Heal macro, but I have not actually tested this
+* Consider adding macros for secondary healing items (e.g. Whipper
+  Root Tuber) and mana items (e.g. Demonic Rune)
+* Consider adding macro for poison-cleansing items (e.g. Immature
+  Venom Sac, Anti-Venom)
 * Add an options UI:
   * Allow user to define their own item precendence lists without editing code
   * Allow user to change the names of the macros the addon uses without editing code
