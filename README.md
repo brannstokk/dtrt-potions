@@ -17,7 +17,7 @@ The macros are automatically updated whenever:
 
 * Your inventory changes (e.g. an item is consumed, ItemRack moves
   things around in your bag, etc) (BAG_UPDATE)
-* You change zones (PLAYER_ENTERING_WORLD)
+* You change zones through a loading screen (PLAYER_ENTERING_WORLD)
 * You exit combat (PLAYER_REGEN_ENABLED)
 
 ### Health restoration items
