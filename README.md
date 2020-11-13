@@ -2,16 +2,16 @@
 
 ## Summary
 
-Do the right thing with potions (and bandages) for World of Warcraft Classic.
+Do The Right Thing with potions (and bandages) for World of Warcraft Classic.
 
 ## Description
 
 When you are in a PVP instance DTRTPotions will attempt to use that
 instance's PVP healing, mana, and bandage items if they are present in
 your inventory.  It does this by dynamically rewriting three of your
-macros: "Heal", "Mana", and "Bandage".  You can clicking on the macros
-or pressing their keybinds should just Do The Right Thing for the zone
-you are in.
+macros: "Heal", "Mana", and "Bandage".  Using the the macros, by
+clicking them or their keybinds, should just Do The Right Thing for
+the zone you are in.
 
 ### Health restoration items
 
