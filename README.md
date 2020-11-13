@@ -21,6 +21,7 @@ Normal | Alterac Valley | Arathi Basin | Warsong Gulch
 ------ | -------------- | ------------ | -------------
 Major Healthstone | Major Healthstone | Major Healthstone | Major Healthstone
 Major Healing Potion | Major Healing Draught | Major Healing Draught | Major Healing Draught
+Combat Healing Potion | Combat Healing Potion | Combat Healing Potion | Combat Healing Potion
 Superior Healing Potion | Major Healing Potion | Major Healing Potion | Major Healing Potion
 N/A | Superior Healing Potion | Superior Healing Potion | Superior Healing Potion
 
