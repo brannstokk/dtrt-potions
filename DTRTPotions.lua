@@ -111,18 +111,8 @@ end
 -- Set bandage item
 
 if type == "pvp" then
-   -- For some reason, GetZoneText() still reports "Stormwind City"
-   -- when first zoning into battlegrounds
-
-   -- i = 0
-   -- while GetZoneText() == "Stormwind City" do
-   --    i = i + 1
-   --    print("Waiting for zone update "..i)
-   --    if i == 100 then
-   --       print("Breaking wait loop...")
-   --       break
-   --    end
-   -- end
+   -- BUG For some reason, GetZoneText() still reports "Stormwind
+   -- City" when first zoning into battlegrounds
    if zone == "Alterac Valley" and GetItemCount(alteracBandageId) > 0 then
       bandageItemName = select(1, GetItemInfo(alteracBandageId))
    elseif zone == "Arathi Basin" and GetItemCount(arathiBandageId) > 0 then
