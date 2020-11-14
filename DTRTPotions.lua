@@ -38,6 +38,9 @@ local normalHealthItems = {
    13446, -- Major Healing Potion (https://classic.wowhead.com/item=13446)
    18839, -- Combat Healing Potion (https://classic.wowhead.com/item=18839)
    3928,  -- Superior Healing Potion (https://classic.wowhead.com/item=3928)
+   7181,  -- Greater Healing Potion (https://classic.wowhead.com/spell=7181)
+   929,   -- Healing Potion (https://classic.wowhead.com/item=929/)
+   858,   -- Lesser Healing Potion (https://classic.wowhead.com/item=858)
 }
 
 local pvpHealthItems = {
@@ -45,6 +48,10 @@ local pvpHealthItems = {
    18839, -- Combat Healing Potion (https://classic.wowhead.com/item=18839)
    13446, -- Major Healing Potion (https://classic.wowhead.com/item=13446)
    3928,  -- Superior Healing Potion (https://classic.wowhead.com/item=3928)
+   17349, -- Superior Healing Draught (https://classic.wowhead.com/item=17349)
+   7181,  -- Greater Healing Potion (https://classic.wowhead.com/spell=7181)
+   929,   -- Healing Potion (https://classic.wowhead.com/item=929/)
+   858,   -- Lesser Healing Potion (https://classic.wowhead.com/item=858)
 }
 
 -- Mana item lists
@@ -53,6 +60,9 @@ local normalManaItems = {
    13444, -- Major Mana Potion (https://classic.wowhead.com/item=13444)
    18841, -- Combat Mana Potion (https://classic.wowhead.com/item=18841)
    13443, -- Superior Mana Potion (https://classic.wowhead.com/item=13443)
+   6149,  -- Greater Mana Potion (https://classic.wowhead.com/item=6149)
+   3827,  -- Mana Potion (https://classic.wowhead.com/item=3827)
+   3385,  -- Lesser Mana Potion (https://classic.wowhead.com/item=3385)
 }
 
 local pvpManaItems = {
@@ -60,10 +70,23 @@ local pvpManaItems = {
    17351, -- Major Mana Draught (https://classic.wowhead.com/item=17351)
    13444, -- Major Mana Potion (https://classic.wowhead.com/item=13444)
    13443, -- Superior Mana Potion (https://classic.wowhead.com/item=13443)
+   17352, -- Superior Mana Draught (https://classic.wowhead.com/item=17352)
+   6149,  -- Greater Mana Potion (https://classic.wowhead.com/item=6149)
+   3827,  -- Mana Potion (https://classic.wowhead.com/item=3827)
+   3385,  -- Lesser Mana Potion (https://classic.wowhead.com/item=3385)
 }
 
 local bandageItems = {
    14530, -- Heavy Runecloth Bandage (https://classic.wowhead.com/item=14530)
+   14529, -- Runecloth Bandage (https://classic.wowhead.com/item=14529)
+   8545,  -- Mageweave Bandage (https://classic.wowhead.com/item=8545)
+   8544,  -- Mageweave Bandage (https://classic.wowhead.com/item=8544)
+   6451,  -- Heavy Silk Bandage (https://classic.wowhead.com/item=6451)
+   6450,  -- Silk Bandage (https://classic.wowhead.com/item=6450)
+   3531,  -- Heavy Wool Bandage (https://classic.wowhead.com/item=3531)
+   3530,  -- Wool Bandage (https://classic.wowhead.com/item=3530)
+   2581,  -- Heavy Linen Bandage (https://classic.wowhead.com/item=2581)
+   1251,  -- Linen Bandage (https://classic.wowhead.com/item=1251)
 }
 
 -- Set healing item
