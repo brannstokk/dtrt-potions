@@ -30,7 +30,10 @@ Major Healthstone | Major Healthstone | Major Healthstone | Major Healthstone
 Major Healing Potion | Major Healing Draught | Major Healing Draught | Major Healing Draught
 Combat Healing Potion | Combat Healing Potion | Combat Healing Potion | Combat Healing Potion
 Superior Healing Potion | Major Healing Potion | Major Healing Potion | Major Healing Potion
-N/A | Superior Healing Potion | Superior Healing Potion | Superior Healing Potion
+Greater Healing Potion | Superior Healing Potion | Superior Healing Potion | Superior Healing Potion
+Healing Potion | Greater Healing Potion | Greater Healing Potion | Greater Healing Potion
+Lesser Healing Potion | Healing Potion | Healing Potion | Healing Potion
+N/A | Lesser Healing Potion | Lesser Healing Potion | Lesser Healing Potion
 
 ### Mana restoration potions
 
@@ -46,7 +49,11 @@ Normal | Alterac Valley | Arathi Basin | Warsong Gulch
 Major Mana Potion | Combat Mana Potion | Combat Mana Potion | Combat Mana Potion
 Combat Mana Potion | Major Mana Draught | Major Mana Draught | Major Mana Draught
 Superior Mana Potion | Major Mana Potion | Major Mana Potion | Major Mana Potion
-N/A | Superior Mana Potion | Superior Mana Potion | Superior Mana Potion
+Greater Mana Potion | Superior Mana Potion | Superior Mana Potion | Superior Mana Potion
+Mana Potion | Superior Mana Draught | Superior Mana Draught | Superior Mana Draught
+Lesser Mana Potion | Greater Mana Potion | Greater Mana Potion | Greater Mana Potion
+N/A | Mana Potion | Mana Potion | Mana Potion
+N/A | Lesser Mana Potion | Lesser Mana Potion | Lesser Mana Potion
 
 ### Bandage items
 
@@ -56,8 +63,15 @@ Heavy Runecloth.
 Normal | Alterac Valley | Arathi Basin | Warsong Gulch
 ------ | -------------- | ------------ | -------------
 Heavy Runecloth Bandage | Alterac Heavy Runecloth Bandage | Arathi Basin Runecloth Bandage | Warsong Gulch Runecloth Bandage
-N/A | Heavy Runecloth Bandage | Highlander's Runecloth Bandage | Heavy Runecloth Bandage
-N/A | N/A | Heavy Runecloth Bandage | N/A
+Runecloth Bandage | Heavy Runecloth Bandage | Highlander's Runecloth Bandage | Heavy Runecloth Bandage
+Heavy Mageweave Bandage | Runecloth Bandage | Heavy Runecloth Bandage | Runecloth Bandage
+Mageweave Bandage | Heavy Mageweave Bandage | Runecloth Bandage | Heavy Mageweave Bandage
+Heavy Silk Bandage | Mageweave Bandage | Heavy Mageweave Bandage | Mageweave Bandage
+Silk Bandage | Heavy Silk Bandage | Mageweave Bandage | Heavy Silk Bandage
+Heavy Linen Bandage | Silk Bandage | Heavy Silk Bandage | Silk Bandage
+Linen Bandage | Heavy Linen Bandage | Silk Bandage | Heavy Linen Bandage
+N/A | Linen Bandage | Heavy Linen Bandage | Linen Bandage
+N/A | N/A | Linen Bandage | N/A
 
 ## To-do
 
