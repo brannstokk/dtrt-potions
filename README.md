@@ -61,10 +61,7 @@ N/A | N/A | Heavy Runecloth Bandage | N/A
 
 ## To-do
 
-* Item precedence lists end with Superior quality potions, so no good
-  for lower-level characters
-* I may not have accounted for all the potions you could use in all
-  the battlegrounds
+* Missing low-level battleground bandages
 * Health Stone is listed in the addon and should be used first in the
   Heal macro, but I have not actually tested this
 * Consider adding macros for secondary healing items (e.g. Whipper
