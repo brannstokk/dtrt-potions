@@ -33,7 +33,8 @@ Superior Healing Potion | Major Healing Potion | Major Healing Potion | Major He
 Greater Healing Potion | Superior Healing Potion | Superior Healing Potion | Superior Healing Potion
 Healing Potion | Greater Healing Potion | Greater Healing Potion | Greater Healing Potion
 Lesser Healing Potion | Healing Potion | Healing Potion | Healing Potion
-N/A | Lesser Healing Potion | Lesser Healing Potion | Lesser Healing Potion
+Minor Healing Potion | Lesser Healing Potion | Lesser Healing Potion | Lesser Healing Potion
+N/A | Minor Healing Potion | Minor Healing Potion | Minor Healing Potion
 
 ### Mana restoration potions
 
@@ -52,8 +53,9 @@ Superior Mana Potion | Major Mana Potion | Major Mana Potion | Major Mana Potion
 Greater Mana Potion | Superior Mana Potion | Superior Mana Potion | Superior Mana Potion
 Mana Potion | Superior Mana Draught | Superior Mana Draught | Superior Mana Draught
 Lesser Mana Potion | Greater Mana Potion | Greater Mana Potion | Greater Mana Potion
-N/A | Mana Potion | Mana Potion | Mana Potion
+Minor Mana Potion | Mana Potion | Mana Potion | Mana Potion
 N/A | Lesser Mana Potion | Lesser Mana Potion | Lesser Mana Potion
+N/A | Minor Mana Potion | Minor Mana Potion | Minor Mana Potion
 
 ### Bandage items
 
