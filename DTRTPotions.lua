@@ -41,6 +41,7 @@ local normalHealthItems = {
    7181,  -- Greater Healing Potion (https://classic.wowhead.com/spell=7181)
    929,   -- Healing Potion (https://classic.wowhead.com/item=929/)
    858,   -- Lesser Healing Potion (https://classic.wowhead.com/item=858)
+   118,   -- Minor Healing Potion (https://classic.wowhead.com/item=118)
 }
 
 local pvpHealthItems = {
