@@ -64,6 +64,7 @@ local normalManaItems = {
    6149,  -- Greater Mana Potion (https://classic.wowhead.com/item=6149)
    3827,  -- Mana Potion (https://classic.wowhead.com/item=3827)
    3385,  -- Lesser Mana Potion (https://classic.wowhead.com/item=3385)
+   2455,  -- Minor Mana Potion (https://classic.wowhead.com/item=2455)
 }
 
 local pvpManaItems = {
